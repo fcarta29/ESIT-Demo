@@ -32,7 +32,7 @@ public abstract class AbstractIT {
         TARGET_SERVER_URL = getConfigurationProperty(
             "TARGET_SERVER_URL",
             "test.target.server.url",
-            "http://localhost:8080");
+            "http://localhost:8090");
 
         webDriver = new RemoteWebDriver(getRemoteUrl(), getDesiredCapabilities());
     }
